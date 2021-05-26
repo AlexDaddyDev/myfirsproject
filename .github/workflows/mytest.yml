@@ -21,8 +21,9 @@ jobs:
          echo "Hello Message1"
          echo "Hello Message2"
          echo "Application name: ${{ env. APPLICATION_NAME }}" 
+         
      - name: List current folder
-       run : Ls -la
+       run : ls -la
 
    
   my_deploy:
